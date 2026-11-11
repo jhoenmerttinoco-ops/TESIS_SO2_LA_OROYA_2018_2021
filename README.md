@@ -1,12 +1,12 @@
-PROYECTO DE INVESTIGACIÓN
+# PROYECTO DE INVESTIGACIÓN
 
-Tema: Evaluación automatizada de escenarios de calidad del aire para SO₂ mediante aprendizaje automático en La Oroya, 2018–2021
+# Tema: Evaluación automatizada de escenarios de calidad del aire para SO₂ mediante aprendizaje automático en La Oroya, 2018–2021
 
 Este repositorio reúne el desarrollo técnico de una investigación de tesis de Maestría en Ciencias en Ingeniería Ambiental, con mención en Gestión Ambiental, de la Universidad Nacional de Ingeniería (UNI), Perú.
 
 El proyecto busca desarrollar y evaluar un procedimiento automatizado para comparar escenarios de calidad del aire para dióxido de azufre (SO₂), incorporando técnicas de aprendizaje automático como apoyo para caracterizar episodios de contaminación atmosférica en La Oroya durante el periodo 2018–2021.
 
-📌 Descripción
+## 📌 Descripción
 
 La investigación propone integrar registros de concentración de SO₂, información meteorológica y criterios nacionales e internacionales de calidad del aire para analizar la frecuencia, intensidad y duración de los episodios de contaminación.
 
@@ -16,7 +16,7 @@ Como complemento, se evaluarán técnicas de aprendizaje automático no supervis
 
 El proyecto contempla el desarrollo de un prototipo denominado provisionalmente NormEval, orientado a automatizar los cálculos y facilitar la consulta y visualización de resultados.
 
-📊 Fuentes de datos
+## 📊 Fuentes de datos
 
 Calidad del aire: registros diarios de SO₂ de la estación CA-CC-01 del OEFA, La Oroya.
 
@@ -28,81 +28,51 @@ Normativa peruana: Estándares de Calidad Ambiental para Aire del MINAM e instru
 
 Referencias internacionales: Directrices Mundiales sobre la Calidad del Aire de la OMS (2021).
 
-🛠️ Tecnologías
+## 🛠️ Tecnologías
 
-Python
+* Python
+* Jupyter Notebook
+* Pandas y NumPy
+* Scikit-learn
+* SciPy
+* Matplotlib
+* Streamlit (prototipo)
+* Joblib (almacena modelos entrenados)
 
-Jupyter Notebook
+## 📂 Estructura del repositorio
 
-Pandas y NumPy
+    ```text
+    01_notebooks_proyecto/
+    02_datos_originales/
+    03_datos_construidos/
+    04_analisis_ambiental/
+    05_resultados_modelado/
+    06_prototipo_normeval/
+    07_documentacion_tecnica/
+    ```
 
-Scikit-learn
-
-SciPy
-
-Matplotlib
-
-Streamlit (propuesto para el prototipo)
-
-Joblib (previsto para almacenar modelos entrenados)
-
-📂 Estructura del repositorio
-
-data/
-    raw/
-        oefa/
-        senamhi/
-        era5/
-    interim/
-    processed/
-        sensitivity/
-
-notebooks/
-src/
-models/
-results/
-    tables/
-    figures/
-    metrics/
-prototype/
-tests/
-docs/
-
-📈 Contenido
+## 📈 Contenido
 
 El repositorio se organizará para documentar progresivamente:
 
-Obtención e integración de datos ambientales y meteorológicos.
+* Obtención e integración de datos ambientales y meteorológicos.
+* Construcción del dataset maestro y conjuntos de datos analíticos.
+* Auditoría de registros, análisis de faltantes y preprocesamiento.
+* Análisis descriptivo de concentraciones y episodios de SO₂.
+* Comparación de escenarios de calidad del aire.
+* Entrenamiento y evaluación de modelos de aprendizaje automático no supervisado.
+* Validación temporal, análisis de estabilidad y sensibilidad de los resultados.
+* Desarrollo y pruebas del prototipo NormEval.
+* Documentación de los procedimientos para facilitar su reproducción.
 
-Construcción del dataset maestro y conjuntos de datos analíticos.
+## 🔎 Estado del proyecto
 
-Auditoría de registros, análisis de faltantes y preprocesamiento.
+*En preparación y desarrollo preliminar.*
 
-Análisis descriptivo de concentraciones y episodios de SO₂.
 
-Comparación de escenarios de calidad del aire.
+## 👨‍💻 Autor
 
-Entrenamiento y evaluación de modelos de aprendizaje automático no supervisado.
-
-Validación temporal, análisis de estabilidad y sensibilidad de los resultados.
-
-Desarrollo y pruebas del prototipo NormEval.
-
-Documentación de los procedimientos para facilitar su reproducción.
-
-🔎 Estado del proyecto
-
-En preparación y desarrollo preliminar.
-
-Actualmente se dispone de registros ambientales, conjuntos de datos integrados y notebooks de análisis exploratorio. Estos materiales servirán como punto de partida para la ejecución formal de la investigación.
-
-Los procedimientos y resultados serán revisados, reproducidos y validados conforme a la metodología establecida en el Plan de Tesis.
-
-Las comparaciones preliminares de concentraciones no constituyen determinaciones oficiales de cumplimiento normativo ni evaluaciones de riesgo sanitario.
-
-👨‍💻 Autor
-
-Jhoenmert Edgar Tinoco Canto
+**Jhoenmert Edgar Tinoco Canto**
 
 Maestría en Ciencias en Ingeniería Ambiental
 
