@@ -2,9 +2,7 @@
 
 # Tema: Evaluación automatizada de escenarios de calidad del aire para SO₂ mediante aprendizaje automático en La Oroya, 2018–2021
 
-Este repositorio reúne el desarrollo técnico de una investigación de tesis de Maestría en Ciencias en Ingeniería Ambiental, con mención en Gestión Ambiental, de la Universidad Nacional de Ingeniería (UNI), Perú.
-
-El proyecto busca desarrollar y evaluar un procedimiento automatizado para comparar escenarios de calidad del aire para dióxido de azufre (SO₂), incorporando técnicas de aprendizaje automático como apoyo para caracterizar episodios de contaminación atmosférica en La Oroya durante el periodo 2018–2021.
+Este repositorio reúne el desarrollo técnico de una investigación que busca desarrollar y evaluar un procedimiento automatizado para comparar escenarios de calidad del aire para dióxido de azufre (SO₂), incorporando técnicas de aprendizaje automático como apoyo para caracterizar episodios de contaminación atmosférica en La Oroya durante el periodo 2018–2021.
 
 ## 📌 Descripción
 
@@ -14,7 +12,7 @@ Se compararán principalmente el ECA peruano de 2017 (250 µg/m³), la referenci
 
 Como complemento, se evaluarán técnicas de aprendizaje automático no supervisado, como K-means e Isolation Forest, para identificar perfiles meteorológicos y condiciones atmosféricas atípicas, y determinar si aportan información adicional al análisis ambiental convencional.
 
-El proyecto contempla el desarrollo de un prototipo denominado provisionalmente NormEval, orientado a automatizar los cálculos y facilitar la consulta y visualización de resultados.
+El proyecto contempla el desarrollo de un prototipo denominado *NormEval*, orientado a automatizar los cálculos y facilitar la consulta y visualización de resultados.
 
 ## 📊 Fuentes de datos
 
