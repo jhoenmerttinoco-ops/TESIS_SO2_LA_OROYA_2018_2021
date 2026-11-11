@@ -39,7 +39,7 @@ Referencias internacionales: Directrices Mundiales sobre la Calidad del Aire de 
 
 ## 📂 Estructura del repositorio
 
-    ```text
+    ```
     01_notebooks_proyecto/
     02_datos_originales/
     03_datos_construidos/
