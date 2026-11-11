@@ -39,15 +39,13 @@ Referencias internacionales: Directrices Mundiales sobre la Calidad del Aire de 
 
 ## 📂 Estructura del repositorio
 
-    ```
-    01_notebooks_proyecto/
+    ``` 01_notebooks_proyecto/
     02_datos_originales/
     03_datos_construidos/
     04_analisis_ambiental/
     05_resultados_modelado/
     06_prototipo_normeval/
-    07_documentacion_tecnica/
-    ```
+    07_documentacion_tecnica/```
 
 ## 📈 Contenido
 
